@@ -8,7 +8,7 @@ sub getUsername {
 	my $username;
 
 	if ($operationalSystem =~ /[U,u]buntu/) {
-		$username = "tor";
+		$username = "debian-tor";
 	}
 
 	elsif ($operationalSystem =~ /[D,d]ebian/) {
